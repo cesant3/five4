@@ -45,8 +45,63 @@
 }
 
 .main-image_image {
-    width: 100%;
-    height: 150px;
+  width: 100%;
+  height: 140px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+
+.auditorias {
+  background-image: url("../Assets/group-of-diverse-people-having-business-meeting.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.consultorias {
+  background-image: url("../Assets/workplace-results-professional-report-accounting-during.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.treinamentos {
+  background-image: url("../Assets/business-people-shaking-hands-together.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicos_title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-bottom: 22px;
+}
+
+.btn-mais {
+  color: #fff;
+  background-color: #2278b1;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 9px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 @media (min-width: 720px) {
@@ -82,11 +137,11 @@
   }
 
   #menu ul li {
-      margin: 0 64px;
+    margin: 0 64px;
   }
 
   .main-image_image {
     width: 100%;
     height: 100%;
-}
+  }
 }
