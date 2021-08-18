@@ -8,3 +8,5 @@ menuBtn.addEventListener("click", () => {
     menuOpen.style.display = "flex"
   }
 });
+
+

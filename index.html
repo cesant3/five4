@@ -49,9 +49,52 @@
                 <a href="#" class="btn-mais">Saiba mais</a>
             </div>
         </div>
+        <div class="socialMedia">
+            <p>Siga-nos nas redes sociais</p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./Assets/facebook.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Assets/twitter.png" alt="twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Assets/instagram.png" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="contact">
+            <div class="form">
+                <h2>Ou fale conosco através do formulário abaixo</h2>
+                <form id="form" method="POST">
+                    <label>Seu nome</label><br />
+                    <input class="textInput" type="text" required /><br />
+                    <label>Seu email</label><br />
+                    <input class="textInput" type="email" required /><br />
+                    <label>Assunto</label><br />
+                    <input class="textInput" type="text" required /><br />
+                    <label>Sua mensagem</label><br />
+                    <textarea name="mensagem" id="message" cols="30" rows="10" required></textarea><br />
+                    <button class="btn-submit" id="form" type="submit" onclick="sendMail()">Enviar</button>
+                </form>
+            </div>
+            <div class="message-img">
+                <img src="./Assets/skyscraper-view-city-leader-window-frame.png" alt="message">
+            </div>
+        </div>
     </main>
+    <footer>
+        <h3>₢ Five4 - 2021 - Todos os direitos reservados.</h3>
+    </footer>
 
     <script src="main.js"></script>
+    <script src="mailConfig.js"></script>
 </body>
 
 </html>

@@ -104,6 +104,99 @@
   font-size: 14px;
 }
 
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 18px 8px;
+  background-color: #2278b1;
+}
+
+.socialMedia p {
+  font-weight: bold;
+  color: #fff;
+}
+
+.socialMedia ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+}
+
+.socialMedia ul li {
+  margin: 0 8px;
+}
+
+.socialMedia ul li a img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 24px;
+}
+
+.contact h2 {
+  font-weight: bold;
+  color: #2278b1;
+  font-size: 3vh;
+  margin-bottom: 8px;
+}
+
+.contact form label {
+  color: #557187;
+  font-size: 3vh;
+  margin-top: 6px;
+}
+.contact form {
+  width: 100%;
+}
+
+.contact form input,
+textarea {
+  width: 100%;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: solid 1px #557187;
+}
+
+.contact form input {
+  height: 26px;
+}
+
+.btn-submit {
+  width: 100%;
+  height: 26px;
+  border-radius: 8px;
+  background-color: #2278b1;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #2278b1;
+}
+
+footer h3 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.message-img {
+  display: none;
+}
+
 @media (min-width: 720px) {
   .logo {
     background-image: url("../Assets/18960.png");
@@ -151,5 +244,31 @@
 
   .servicos {
     height: 180px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 16px 0;
+  }
+
+  .contact .form {
+    width: 40%;
+  }
+
+  .btn-submit {
+    width: 30%;
+  }
+
+  .message-img {
+    display: flex;
+    width: 500px;
+    height: 330px;
+    margin: 12px 22px;
+  }
+
+  .message-img img {
+    border-radius: 12px;
   }
 }
