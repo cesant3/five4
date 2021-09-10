@@ -44,6 +44,10 @@
   font-size: 14px;
 }
 
+#menu ul li a:hover {
+  color: #445b6d;
+}
+
 .main-image_image {
   width: 100%;
   height: 140px;
@@ -95,7 +99,7 @@
 .btn-mais {
   color: #fff;
   background-color: #2278b1;
-  box-shadow: 0.5px 0.5px #2278b1;
+  box-shadow: 0.5px 0.5px #2586c7;
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 9px;
@@ -103,6 +107,10 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
+}
+
+.btn-mais:hover {
+  background-color: #1b91df;
 }
 
 .socialMedia {
@@ -199,6 +207,25 @@ footer h3 {
 
 .message-img {
   display: none;
+}
+
+.whatsapp-action {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+  margin-right: 12px;
+  margin-bottom: 8px;
+}
+
+.whatsapp-action img:hover {
+  width: 68px;
+  height: 68px;
+}
+
+.whatsapp-action img {
+  width: 60px;
+  height: 60px;
 }
 
 @media (min-width: 720px) {
