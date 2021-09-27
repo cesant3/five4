@@ -1,0 +1,63 @@
+.nossa-historia {
+  margin: 18px 14px;
+}
+
+h2,
+h3,
+p {
+  margin-bottom: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.organizacional {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 8px 28px; */
+  padding: 14px 28px;
+  background-image: linear-gradient(#2278b1, #fff);
+}
+
+.organizacional img {
+  width: 60px;
+  height: 60px;
+}
+
+.organizacional h3 {
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-top: 6px; */
+}
+
+.organizacional p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.visao,
+.missao,
+.valores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 720px) {
+  .nossa-historia {
+    margin: 18px 60px;
+  }
+
+  .organizacional {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .visao,
+  .missao,
+  .valores {
+    width: 32%;
+    padding: 0 12px;
+  }
+}
