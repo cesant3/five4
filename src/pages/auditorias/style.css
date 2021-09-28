@@ -1,0 +1,24 @@
+main h2,
+p,
+ul {
+  margin: 18px 14px;
+}
+
+.auditoria {
+  background-image: url("../../Assets/business-people-analyzing-statistics-financial-concept.png");
+  background-size: contain;
+  height: 55px;
+  padding: 8px 0;
+}
+
+@media (min-width: 720px) {
+  main h2,
+  p,
+  ul {
+    margin: 18px 60px;
+  }
+  .auditoria {
+    height: 80px;
+    padding: 32px 0;
+  }
+}
