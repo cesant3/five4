@@ -4,6 +4,10 @@ ul {
   margin: 18px 14px;
 }
 
+ul li {
+  margin-bottom: 2px;
+}
+
 .auditoria {
   background-image: url("../../Assets/business-people-analyzing-statistics-financial-concept.png");
   background-size: contain;
@@ -15,7 +19,7 @@ ul {
   main h2,
   p,
   ul {
-    margin: 18px 60px;
+    margin: 18px 90px;
   }
   .auditoria {
     height: 80px;
